@@ -1,0 +1,17 @@
+import 'package:muhammad_s_application7/core/app_export.dart';
+import 'package:muhammad_s_application7/presentation/notification_offer_screen/models/notification_offer_model.dart';
+
+class NotificationOfferController extends GetxController {
+  Rx<NotificationOfferModel> notificationOfferModelObj =
+      NotificationOfferModel().obs;
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+  }
+}
